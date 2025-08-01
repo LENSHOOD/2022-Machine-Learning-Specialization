@@ -2,13 +2,12 @@
 第 1 个问题
 Which are the two common types of supervised learning? (Choose two)
 
-A.Classification 
+[A].Classification 
 
 
 B.Clustering
 
-
-C.Regression
+[C].Regression
 
 2.
 第 2 个问题
@@ -20,5 +19,4 @@ A.Regression
 
 B.Classification
 
-
-C.Clustering
+[C].Clustering

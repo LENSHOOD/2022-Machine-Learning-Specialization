@@ -1,4 +1,14 @@
 ![](1.png)
+
+position is state, movement is action
+
 ![](2.png)
+
+R(1) > R(2) > R(3), R(3) is negative
+
 ![](3.png)
+
+Return = -100 + (-100\*0.75) + 1000*0.75^2
+
 ![](4.png)
+

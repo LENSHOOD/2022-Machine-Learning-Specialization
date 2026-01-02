@@ -75,7 +75,7 @@ class BidirectionalLunarLander(LunarLander):
         dispersion = [self.np_random.uniform(-1.0, +1.0) / SCALE for _ in range(2)]
 
         m_power = 0.0
-        if (self.continuous and action[0] > 0.0) or (
+        if (self.continuous) or (
             not self.continuous and action == 2
         ):
             # Main engine

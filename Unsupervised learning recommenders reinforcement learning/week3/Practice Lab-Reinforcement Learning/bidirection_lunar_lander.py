@@ -202,7 +202,10 @@ class BidirectionalLunarLander(LunarLander):
         self.prev_shaping = shaping
 
         reward -= (
+####################################################################################################################################
+            # m_power * 0.30
             abs(m_power) * 0.30
+####################################################################################################################################
         )  # less fuel spent is better, about -30 for heuristic landing
         reward -= s_power * 0.03
 
